@@ -12,7 +12,7 @@ import lombok.ToString;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@ToString
+
 @Entity
 public class Student {
     @Id
