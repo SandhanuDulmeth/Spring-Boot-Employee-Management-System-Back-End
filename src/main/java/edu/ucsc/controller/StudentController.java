@@ -28,4 +28,9 @@ public class StudentController {
         service.deleteStundetById(id);
     }
 
+    @PutMapping
+    public void updateStudent(@RequestBody Student student){
+        service.addStudent(student);
+    }
+
 }
