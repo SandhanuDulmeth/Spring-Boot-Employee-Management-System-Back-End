@@ -1,7 +1,7 @@
-package edu.icet.service;
+package edu.ucsc.service;
 
 
-import edu.icet.dto.Student;
+import edu.ucsc.dto.Student;
 
 import java.util.List;
 

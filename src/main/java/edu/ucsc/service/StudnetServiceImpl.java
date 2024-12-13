@@ -1,7 +1,7 @@
-package edu.icet.service;
+package edu.ucsc.service;
 
-import edu.icet.dto.Student;
-import edu.icet.repository.StudentRepository;
+import edu.ucsc.dto.Student;
+import edu.ucsc.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;

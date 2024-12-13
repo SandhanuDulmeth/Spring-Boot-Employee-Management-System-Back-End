@@ -1,4 +1,4 @@
-package edu.icet.dto;
+package edu.ucsc.dto;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

@@ -1,4 +1,4 @@
-package edu.icet;
+package edu.ucsc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

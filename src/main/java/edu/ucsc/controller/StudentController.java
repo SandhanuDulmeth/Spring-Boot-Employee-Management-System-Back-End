@@ -1,7 +1,7 @@
-package edu.icet.controller;
+package edu.ucsc.controller;
 
-import edu.icet.dto.Student;
-import edu.icet.service.StudentService;
+import edu.ucsc.dto.Student;
+import edu.ucsc.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
