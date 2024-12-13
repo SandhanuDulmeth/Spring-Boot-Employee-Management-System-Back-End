@@ -10,4 +10,6 @@ public interface StudentService {
     void addStudent(Student student);
 
     void deleteStundetById(Integer id);
+
+    List<Student> findByName(String name);
 }

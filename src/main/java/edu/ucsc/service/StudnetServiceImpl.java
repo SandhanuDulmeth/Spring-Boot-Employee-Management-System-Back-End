@@ -29,4 +29,9 @@ public class StudnetServiceImpl implements StudentService {
     public void deleteStundetById(Integer id) {
         repository.deleteById(id);
     }
+
+    @Override
+    public List<Student> findByName(String name) {
+        return repository.findByName(name);
+    }
 }
