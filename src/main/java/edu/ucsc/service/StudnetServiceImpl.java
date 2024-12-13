@@ -30,8 +30,5 @@ public class StudnetServiceImpl implements StudentService {
         repository.deleteById(id);
     }
 
-    @Override
-    public List<Student> findByName(String name) {
-        return repository.findByName(name);
-    }
+
 }
