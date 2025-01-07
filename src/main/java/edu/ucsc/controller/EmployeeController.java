@@ -2,6 +2,7 @@ package edu.ucsc.controller;
 
 import edu.ucsc.dto.Employee;
 import edu.ucsc.service.EmployeeService;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -9,9 +10,11 @@ import java.util.List;
 
 @RestController
 @CrossOrigin
+@RequestMapping("/employee")
+@RequiredArgsConstructor
 public class EmployeeController {
-    @Autowired
-    EmployeeService service;
+
+   final EmployeeService service;
 
     @GetMapping
     public List<Employee> getStudent() {
