@@ -18,7 +18,8 @@ public class Student {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
-    private String name;
-    private String email;
     private String address;
+    private String email;
+    private String name;
+
 }

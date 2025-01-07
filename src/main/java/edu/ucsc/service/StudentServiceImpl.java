@@ -11,7 +11,7 @@ import java.util.List;
 
 @Service
 @Primary
-public class StudnetServiceImpl implements StudentService {
+public class StudentServiceImpl implements StudentService {
     @Autowired
     StudentRepository repository;
 
@@ -26,7 +26,7 @@ public class StudnetServiceImpl implements StudentService {
     }
 
     @Override
-    public void deleteStundetById(Integer id) {
+    public void deleteStudentById(Integer id) {
         repository.deleteById(id);
     }
 
