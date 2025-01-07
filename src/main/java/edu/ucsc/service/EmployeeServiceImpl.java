@@ -1,7 +1,7 @@
 package edu.ucsc.service;
 
-import edu.ucsc.dto.Student;
-import edu.ucsc.repository.StudentRepository;
+import edu.ucsc.dto.Employee;
+import edu.ucsc.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
@@ -11,18 +11,18 @@ import java.util.List;
 
 @Service
 @Primary
-public class StudentServiceImpl implements StudentService {
+public class EmployeeServiceImpl implements EmployeeService {
     @Autowired
-    StudentRepository repository;
+    EmployeeRepository repository;
 
     @Override
-    public List<Student> getStudent() {
+    public List<Employee> getStudent() {
         return repository.findAll();
     }
 
     @Override
-    public void addStudent(Student student) {
-        repository.save(student);
+    public void addStudent(Employee employee) {
+        repository.save(employee);
     }
 
     @Override
